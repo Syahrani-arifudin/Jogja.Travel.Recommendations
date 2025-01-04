@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Web Interaktif </title>
+    <link rel="stylesheet" href="/Home1.css">
+</head>
+<body>
+
+    <!-- Bagian Navigasi -->
+    <header>
+        <div class="logo">Wisata Jogja</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Rekomendasi</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bagian perkenalan web -->
+    <section id="home" class="hero">
+        <h1>Rekomendasi Tempat Wisata Jogja</h1>
+    </section>
+
+    <!-- Rekomendasi tempat wisata -->
+    <section id="destinations" class="destinations">
+        <h2>Wisata yang katanya 
+            <br>"kalau belum ke sini berarti belum ke jogja"</h2>
+
+            <div class="card-container">
+                <a href="/page 1.html" class="card">
+                    <img src="/Prambanan.jpg" alt="Candi Prambanan">
+                    <h3>Candi Prambanan</h3>
+                    <p>Cerita sejarah yang terkenal roro jonggrang, semuanya pasti tau kan?</p>
+                </a>
+            
+                <a href="/Page 2.html" class="card">
+                    <img src="/Malioboro.jpg" alt="Jalan Malioboro">
+                    <h3>Jalan Malioboro</h3>
+                    <p>Kata banyak orang, ini sih jantungnya kota Yogyakarta.</p>
+                </a>
+            
+                <a href="/page 3.html" class="card">
+                    <img src="/Paragtritis.jpg" alt="Pantai Parangtritis">
+                    <h3>Pantai Parangtritis</h3>
+                    <p>Jangan pakai baju hijau loh, nanti di culik Nyi Roro Kidul.</p>
+                </a>
+            </div>
+            
+    </section>
+    
+     <!-- Memperkenalkan yogyakarta -->
+ <section id="about" class="about">
+    <h2>Yogyakarta</h2>
+    <p>Yogyakarta adalah sebuah kota istimewa di Indonesia yang kaya akan sejarah, budaya, dan keindahan alam, terkenal sebagai pusat kebudayaan Jawa dengan beragam seni, tradisi, dan kuliner yang unik.</p>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="Nomer">Nomer wa</label>
+        <input type="tel" id="number" name="number" placeholder="Conoh : +6281223456778" pattern="^\+62\d{9,13}$" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; Mepay Blog.</p>
+</footer>
+
+</body>
+</html>
+
